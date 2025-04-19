@@ -1,0 +1,123 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* Section Styling */
+section {
+    padding: 40px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* About Section */
+.about p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+/* Experience Section */
+.experience {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.experience .job {
+    margin: 20px 0;
+}
+
+.experience h3 {
+    color: #4CAF50;
+}
+
+.experience ul {
+    list-style: none;
+    padding: 0;
+}
+
+.experience li {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Resume Button */
+.resume-button {
+    background: #ff6f61;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+}
+
+.resume-button:hover {
+    background: #e15b4d;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
+
+footer p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    .resume-button {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
